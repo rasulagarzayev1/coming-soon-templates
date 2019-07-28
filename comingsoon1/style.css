@@ -1,0 +1,133 @@
+
+*{
+    margin: 0;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    overflow: hidden;
+}
+.firstPart,
+.secondPart{
+    width: 20%;
+    height: 789px;
+}
+.firstPart{
+    background-color: white;
+}
+.secondPart{
+    width: 80%;
+    background:linear-gradient(to left, rgba(0, 0, 0, 0.719) ,rgba(0, 0, 0, 0.719)),url("Photography-Cover.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    transform: skewX(-20deg);
+    position: relative;
+    right: -30%;
+
+}
+h1{
+    font-family: 'Acme', sans-serif;
+    font-size: 3.5em;
+    text-align: center;
+    width: 170%;
+    margin-top: 40%;
+}
+
+.time-counter{
+    position:relative;
+    margin: auto;
+    margin-top: 15%;
+    width: 60%;
+}
+
+.time-counter .time-countdown{
+	position:relative;
+}
+
+.time-counter .time-countdown .counter-column{
+	position:relative;
+	margin:0px 15px 0px;
+	width:150px;
+	height:150px;
+	text-align:center;
+	display:inline-block;
+	padding:10px 0px 10px;
+	border:2px solid white;
+	color:white;
+	font-size:20px;
+	line-height:30px;
+	text-transform:uppercase;
+	border-radius:50%;
+	font-weight:600;
+	margin-bottom:30px;
+    font-family: 'Poppins', sans-serif;
+    transform: skewX(15deg);
+}
+
+.time-counter .time-countdown .counter-column .count{
+	position:relative;
+	display:block;
+	font-size:60px;
+	line-height:40px;
+	padding:35px 10px 20px;
+	color:white;
+	letter-spacing:1px;
+	font-weight:700;
+	font-family: 'Montserrat', sans-serif;
+}
+
+ .emailForm .form-group{
+	position:relative;
+	display:block;
+	max-width:770px;
+	margin:0 auto;
+	width:100%;
+	margin-bottom:20px;
+}
+
+ .emailForm .form-group input[type="text"],
+ .emailForm .form-group input[type="tel"],
+ .emailForm .form-group input[type="email"],
+ .emailForm .form-group textarea{
+	position:relative;
+	display:block;
+	width:115%;
+	height:60px;
+	font-size:17px;
+	color:#797979;
+	padding:5px 25px 5px 15px;
+	background:#ffffff;
+	-webkit-transition:all 300ms ease;
+	-ms-transition:all 300ms ease;
+	-o-transition:all 300ms ease;
+	-moz-transition:all 300ms ease;
+    transition:all 300ms ease;	
+    outline: none;
+    margin-top: 35%;
+    margin-left: 15%;
+}
+
+.emailForm .form-group input[type="submit"],
+ .emailForm button{
+	position:absolute;
+	right:-322px;
+	top:0px;
+	width:195px;
+	height:74px;
+	line-height:40px;
+	color:#ffffff;
+	font-size:22px;
+	font-weight:600;
+	text-align:center;
+	background:black;
+	letter-spacing:1px;
+    font-family: 'Poppins', sans-serif;
+    outline: none;
+    border: none;
+}
+p{
+    font-family: 'Acme', sans-serif;
+  text-align: center;
+}
