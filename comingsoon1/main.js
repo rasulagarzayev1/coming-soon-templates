@@ -10,3 +10,26 @@
          });
         }
 })(window.jQuery);
+
+
+function writeMessage(stringg) {
+    var i = 0;
+    var intervalId;
+        intervalId = window.setInterval(function() {
+            var message =document.querySelector("h1");
+            message.innerHTML += stringg.charAt(i);
+            i++;
+            if (i > stringg.length){
+                window.clearInterval(intervalId);
+                i=0;
+                setTimeout(function(){
+                    message.innerHTML ="";
+                    writeMessage("Our Site Is Coming Soon");
+                },1200)
+            }
+        }, 100); 
+  
+    
+}
+
+writeMessage("Our Site Is Coming Soon");
